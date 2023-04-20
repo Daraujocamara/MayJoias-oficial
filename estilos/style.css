@@ -19,12 +19,18 @@ font-family: 'Source Sans Pro', sans-serif; para textos
     background-color: #F5F5F5;
     
 }
+
+
 header {
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: #313131;
     margin-top: 1px;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;    
 }
 
 
@@ -50,23 +56,49 @@ header {
 
 .menu{
     display: flex;
-    flex-direction: row;
-    justify-content: start;
-
-
+    flex-direction: row;    
+    justify-content: space-between;
+    background-color:#313131;
+    border-top: 1px solid #F5F5F5;
+}
+.menu-itens{
+    text-decoration: none;
+    border: none;
 }
 
-.menu-itens {
-    background-color: black;
+
+.menu-itens > ul > a{   
+    background-color: #313131;    
+    text-decoration: none;    
     color: #F5F5F5;
-    margin-left: 50px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;    
+    padding-left: 10px;
+    padding-bottom: 6px;    
+    margin-left: -3.5px;
+    
 }
 
+
+.menu-itens > ul > a:hover{
+    background-color: #F5F5F5;
+    color: #C4AC4B;
+    transition: 0.2s;
+    
+}
+
+.logo-img img{
+    display: flex;
+    background-color: #313131;
+    width: 26px;
+    float: right;   
+    padding-right: 10px;
+}
 .section1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 50px;
     
 }
 
@@ -101,17 +133,47 @@ header {
     margin-top: 50px;
     margin-left: 100px;
     cursor: pointer;
+    border: 0.5px solid #313131;
 }
 
 .botao-section1:hover{
-    background-color: #F5F5F5;
-    color: #C4AC4B;
+    background-color: #C4AC4B;
+    color: #F5F5F5;
     transition: 0.2s;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1 solid #313131;
 }
 .imagem_section1 img {
     width: 600px;
     height: 450px;
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 3px;
     margin-right: 20px;
+}
+
+
+
+.section2 h2{
+    font-family: 'Forum', cursive;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 60px;
+   
+}
+
+.section2_imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #C4AC4B;
+}
+.section2_imagens  img{
+    border-radius: 10px;
+    padding-top: 5px;
 }
