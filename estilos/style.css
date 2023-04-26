@@ -70,7 +70,8 @@ header {
     color: #F5F5F5;
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;    
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 6px;    
     margin-left: -3.5px;    
 }
@@ -78,23 +79,16 @@ header {
     background-color: #F5F5F5;
     color: #C4AC4B;
     transition: 0.2s;
-    
-}
-
-.logo-img1 img{
-    display: flex;
-    background-color: #313131;
-    width: 26px;
-    float: right;   
-    padding-right: 10px;
+    text-decoration: underline;    
 }
 
 .logo-img img{
     display: flex;
+    justify-content: end;
     background-color: #313131;
-    width: 26px;
-    float: right;   
-    padding-right: 10px;
+    width: 26px;      
+    padding-right: 5px;
+    cursor: pointer;
 }
 
 .section1{
@@ -193,7 +187,7 @@ header {
     height: auto;
     padding: 10px;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-bottom: 30px;
     font-size: 14px;
     background-color: #313131;
@@ -201,6 +195,8 @@ header {
     border-radius: 5px;
     text-transform: uppercase;  
     cursor: pointer;  
+    box-shadow: none;
+    
 }
 
 .botao-comprar:hover{
@@ -209,12 +205,9 @@ header {
     transition: 0.4s;
     font-size: 15px;
     font-weight: normal;
+    box-shadow: none;
     border: 1 solid #313131;
 }
-
-
-
-
 .rodape{    
     height: 40px;
     font-size: 16px;
@@ -223,6 +216,5 @@ header {
     background-color: #313131;
     color: #F5F5F5;
     padding-top: 20px;
-    
-    
+    margin-bottom: 1px;      
 }
